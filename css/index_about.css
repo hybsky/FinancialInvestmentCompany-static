@@ -1,0 +1,107 @@
+/*intro 开始*/
+
+#intor{
+	height: 1200px;
+	position: relative;
+}
+.intor-left{
+	height: 622px;
+	width: 290px;
+	color: red;
+	float: left;
+}
+.intor-list{
+	height: 252px;
+	width: 290px;
+	color: red;
+	clear: both;
+}
+.intor-list-title{
+	height: 37px;
+	width: 290px;
+	background: url('../img/news/nav_title_sign.gif') no-repeat 8px center;
+	border: 0 solid #EA3939;
+	border-width: 0 0 2px 0;
+	font-weight: bold;
+	color: #EA3939;
+	text-indent: 23px;
+	line-height: 37px;
+}
+.intor-list-li{
+	height: 215px;
+	width: 290px;
+	position: relative;
+	top: 4px;
+	list-style: none;
+}
+
+.intor-list-li li{
+	width: 290px;
+	height: 30px;
+	background: #EFEFEF;
+	text-align: center;
+	padding-top: 10px;
+	border: 1px solid #D0D0D0;
+	border-width: 0 0 1px 0;
+	font-weight: bold;
+}
+.intor-list-li li:hover{
+	background: white;
+}
+
+.intor-right{
+	height: 1200px;
+	width: 772px;
+	float: right;
+}
+.intor-right-title{
+	height: 25px;
+	width: 775px;
+	position: relative;
+	border: 1px solid black;
+	border-width: 0 0 2px 0;
+	padding-top: 12px;
+	
+}
+
+.intor-right-contact{
+	width: 246px;
+	height: 170px;
+	margin-top: 10px;
+	background: url('../img/about/ab.jpg');
+	cursor: pointer;
+	float: right;
+}
+.intor-right p{
+	line-height: 25px;
+	color: #5A5A5A;
+	font-size: 13px;
+	text-indent: 20px;
+
+/*.intor-right-contact{
+	height: 1254px;
+	width: 770px;
+	
+}
+.intor-right-contact1{
+	height: 180px;
+	background: url('../img/about/ab.jpg') no-repeat right center;
+}
+.intor-right-contact1-p{
+	height: 180px;
+	width: 515px;
+	line-height: 26px;
+	font-size: 14px;
+	color: #5A5A5A;
+	margin-top: 8px;
+	margin-left: 5px;
+}
+.intor-right-contact2{
+	height: 1074px;
+	width: 770px;
+	line-height: 26px;
+	font-size: 14px;
+	color: #5A5A5A;
+	margin-left: 5px;
+}*/
+/*intro 结束*/

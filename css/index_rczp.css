@@ -1,0 +1,42 @@
+/*intro 开始*/
+.intro{
+	padding-top: 20px;
+	height: 644px;
+}
+.intro-title{
+	height: 26px;
+	width: 1100px;
+	background: url('../img/recruitment/zp_img.png') no-repeat left center;
+	border: 0 solid #EA3939;
+	border-width: 0 0 2px 0;
+	font-weight: bold;
+	color: black;
+	text-indent: 27px;
+	line-height: 26px;
+}
+.intro-contact{
+	height: 604px;
+	width: 1060px;
+	padding: 40px 20px 50px 20px;
+}
+.intor-right{
+	height: 488px;
+	width: 478px;
+	float: right;
+	padding: 10px 100px 10px 100px;
+	background-color: #F5F5F5;
+	margin-top: 10px;
+}
+.intor-right p{
+	line-height: 20px;
+}
+.intor-right-title{
+	margin-top: 20px;
+    color: #EA3939;
+}
+.intor-right-contect{
+	font-size: 12px;
+    color: #5A5A5A;
+}
+
+/*intro 结束*/

@@ -1,0 +1,41 @@
+/*intro 开始*/
+.intro{
+	padding-top: 20px;
+	height: 600px;
+}
+.intro-title{
+	height: 26px;
+	width: 1100px;
+	background: url('../img/recruitment/zp_img.png') no-repeat left center;
+	border: 0 solid #EA3939;
+	border-width: 0 0 2px 0;
+	font-weight: bold;
+	color: black;
+	text-indent: 27px;
+	line-height: 26px;
+}
+.intro-contact{
+	height: 604px;
+	width: 1060px;
+	padding: 40px 20px 50px 20px;
+}
+.intro-contact-right{
+	width: 700px;
+	height: 500px;
+	float: right;
+	margin-top: 10px;
+}
+.tit{
+	font-size: 16px;
+	color: #5A5A5A;
+}
+.intro-contact-form{
+	width: 595px;
+	height: 485px;
+	margin: 0 auto;
+}
+.intro-contact-form p{
+	text-indent: 20px;
+	padding-bottom: 10px;
+}
+/*intro 结束*/

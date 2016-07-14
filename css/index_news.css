@@ -1,0 +1,87 @@
+
+/*intro 开始*/
+
+#intor{
+	height: 479px;
+	position: relative;
+}
+.intor-left{
+	height: 479px;
+	width: 290px;
+	color: red;
+	float: left;
+}
+.intor-list{
+	height: 129px;
+	width: 290px;
+	color: red;
+	clear: both;
+}
+.intor-list-title{
+	height: 37px;
+	width: 290px;
+	background: url('../img/news/nav_title_sign.gif') no-repeat 8px center;
+	border: 0 solid #EA3939;
+	border-width: 0 0 2px 0;
+	font-weight: bold;
+	color: #EA3939;
+	text-indent: 23px;
+	line-height: 37px;
+}
+.intor-list-li{
+	height: 215px;
+	width: 290px;
+	position: relative;
+	top: 4px;
+	list-style: none;
+}
+
+.intor-list-li li{
+	width: 290px;
+	height: 30px;
+	background: #EFEFEF;
+	text-align: center;
+	padding-top: 10px;
+	border: 1px solid #D0D0D0;
+	border-width: 0 0 1px 0;
+	font-weight: bold;
+}
+.intor-list-li li:hover{
+	background: white;
+}
+.intor-right{
+	height: 271px;
+	width: 770px;
+	float: right;
+}
+.intor-right-title{
+	height: 25px;
+	width: 775px;
+	position: relative;
+	border: 1px solid black;
+	border-width: 0 0 2px 0;
+	padding-top: 12px;
+	
+}
+.news-list li{
+	height: 20px;
+	line-height: 20px;
+	border-bottom: 1px dotted #ccc;
+	text-indent: 15px;
+	padding: 5px 0 3px 5px;
+	background: url(../img/article_arrow.gif) no-repeat 5px center;
+}
+.news-title{
+	color: #5A5A5A;
+	font-size: 12px;
+	float: left;
+}
+.news-title:hover{
+	color: #EA3939;
+}
+.news-date{
+	color: #5A5A5A;
+	font-size: 12px;
+	float: right;
+}
+/*intro 结束*/

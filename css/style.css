@@ -1,0 +1,324 @@
+*{
+		padding: 0px;
+		margin: 0px;
+		font-family: "Microsoft YaHei"
+	}
+ul,ol{
+		list-style: none;
+	}
+a{
+		text-decoration: none;
+	}
+img{
+		border:0px;
+	}
+body{
+	font-size: 14px;
+}
+.wrap{
+	width: 1100px;
+	margin: 0 auto;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+/*header 开始*/
+#header{
+	width: 1100px;
+	height: 100px;
+	background: #fff;
+	margin: 0 auto;
+	position: relative;
+}
+#logo{
+	/*margin-top:150px;*/
+	position: absolute;
+	top: 50%;
+	margin-top: -35px;
+}
+#search-box{
+	width: 262px;
+	height: 30px;
+	background: #00f;
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	left: 57%;
+	margin-left: -131px;
+	border: 1px solid #EA3939;
+}
+#search-txt{
+	width: 212px;
+	height: 30px;
+	border: 0;
+	float: left;
+	text-indent: 10px;
+	outline: none;/*去掉输入时的边框*/
+}
+#search-btn{
+	width: 50px;
+	height: 30px;
+	border: 0;
+	float: left;
+	background: #EA3939;
+	color: #fff;
+}
+#search-result{
+	width: 212px;
+	position: absolute;
+	top: 30px;
+	left: -1px;
+	background: #fff;
+	display: none;/*不输入时隐藏*/
+}
+#search-result li{
+	height: 25px;
+	border-bottom: 1px dotted #CCC;/*每行虚点隔开*/
+	line-height: 25px;
+	text-indent: 5px;
+	cursor: pointer;/*落入时鼠标变小手*/
+}
+#search-result li:hover{
+	background: #CCC;
+}
+#search-result .last{
+	border-bottom: none;
+}
+#share{
+	width: 210px;
+	height: 30px;
+	position: absolute;
+	right: 30px;
+	top: 50%;
+	margin-top: -15px;
+}
+#share li{
+	float: left;
+	margin-right: 60px;
+}
+#share .qq{
+	background-image: url('../img/top_qq.jpg') 
+}
+#share .qq:hover{
+	background: url('../img/top_qq_h.jpg') 
+}
+#share .weib{
+	background: url('../img/top_weib.jpg') 
+}
+#share .weib:hover{
+	background: url('../img/top_weib_h.jpg') 
+}
+#share .mail{
+	background: url('../img/top_you.jpg') 
+}
+#share .mail:hover{
+	background: url('../img/top_you_h.jpg') 
+}
+
+#share a{
+	width: 30px;
+	height: 30px;
+	background: #f00;
+	float: left;
+}
+/*header 结束*/
+/*nav 开始*/
+#nav{
+	height: 50px;
+	background: #EA3939;
+}
+#nav ul{
+	width: 1100px;
+	height: 50px;
+	margin: 0 auto;
+}
+#nav li{
+	float: left;
+	width: 135px;
+	height: 50px;
+}
+#nav a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+}
+#nav a:hover{
+	background: #A61C00;
+}
+/*nav 结束*/
+/*banner 开始*/
+#banner{
+	background: url('../img/banner.png') no-repeat 50% 50%;
+	height: 390px;
+	position: relative;
+}
+/*intro部分 开始*/
+.intor-ad{
+	height: 340px;
+	width: 290px;
+	color: white;
+	background-color: #EA3939;
+	margin-top: 10px;
+	float: left;
+	/*position: relative;
+	top: 260px;*/
+}
+.intor-ad-title{
+	height: 32px;
+	width: 290px;
+	position: absolute;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 18px;
+	padding-top: 20px;
+}
+.intor-ad-contact{
+	height: 120px;
+	width: 250px;
+	line-height: 30px;
+	font-size: 10px;
+	position: absolute;
+	padding-left: 18px;
+	padding-top: 70px;
+}
+/*intro部分 结束*/
+/*footer 开始*/
+#footer{
+	height: 180px;
+	background-color: #666666;
+	position: relative;
+	top: 22px;
+}
+.footer-position{
+	height: 145px;
+	width: 25px;
+	font-weight: bolder;
+	line-height: 24px;
+	background-color: #EA3939;
+	color: white;
+	position: absolute;
+	left: 130px;
+	top: -10px;
+	padding-top: 5px;
+	padding-left: 15px;
+}
+.footer-phone{
+	height: 75px;
+	width: 500px;
+	color: white;
+	position: absolute;
+	left: 240px;
+	top: 42px;
+	line-height: 40px;
+}
+.footer-contact{
+	height: 98px;
+	width: 400px;
+	position: absolute;
+	left: 800px;
+	top: 33px;
+	background: url('../img/ewm.jpg') no-repeat;
+}
+.footer-web{
+	height: 42px;
+	font-size: 12px;
+	/*position: relative;
+	top: 150px; */
+	padding-top: 150px;
+	text-indent: 320px;
+}
+.footer-contact-tex{
+	color: white;
+	position: relative;
+	left: 120px;
+	width: 300px;
+}
+
+#footer-contact-picture{
+	height: 37px;
+	width: 300px;
+	position: relative;
+	left: 120px;
+	top: 25px;
+}
+#footer-contact-picture li{
+	float: left;
+	margin-right: 60px;
+}
+#footer-contact-picture a{
+	width: 37px;
+	height: 37px;
+}
+.qq2{
+	background: url('../img/db_qq.jpg') no-repeat;
+	position: absolute;
+}
+.qq2:hover{
+	background: url('../img/db_qq_h.jpg') no-repeat;
+	position: absolute;
+}
+.weib2{
+	background: url('../img/db_wb.jpg') no-repeat;
+	position: absolute;
+	left: 70px;
+}
+.weib2:hover{
+	background: url('../img/db_wb_h.jpg') no-repeat;
+	position: absolute;
+	left: 70px;
+}
+.mail2{
+	background: url('../img/db_yx.jpg') no-repeat;
+	position: absolute;
+	left: 140px;
+}
+.mail2:hover{
+	background: url('../img/db_yx_h.jpg') no-repeat;
+	position: absolute;
+	left: 140px; 
+}
+/*footer 结束*/
+/*end 开始*/
+.end{
+	height: 31px;
+	position: relative;
+	top: 22px;
+	font-size: 10px;
+	font-weight: bolder;
+}
+
+.end-tex{
+	height: 31px;
+	width: 180px;
+	position: absolute;
+	margin-left: 450px;
+	margin-right: 450px;
+	line-height: 31px;
+	font-weight: lighter;
+}
+.end-supply{
+	color: #5A5A5A;
+	font-weight: bolder;
+}	
+.end-supply:hover{
+	color: red;
+}
+/*end 开始*/
+/*go-top 开始*/
+#go-top{
+	position: fixed;
+	right: 10px;
+	bottom: 100px;
+	width: 25px;
+	height: 25px;
+	background: url('../img/gotop.png') no-repeat -25px 0;
+}
+#go-top:hover{
+	background: url('../img/gotop.png') no-repeat 0px 0;
+}
+/*go-top 结束*/
